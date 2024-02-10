@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes bounce {
+             0%{
+                transform:translateY(50vh);
+            }
+            20%{
+                transform:translateY(0);
+            }
+            50%{
+                transform:translateY(100vh);
+            }
+            70% {
+                transform:translateY(50vh);
+            }
+            80% {
+                transform:translateY(70vh);
+            }
+            85%{
+                transform:translateY(0);
+            }
+            95%{
+                transform:translateY(50vh);
+            }
+            98%{
+                transform:translateY(0);
+            }
+            99%{
+                transform:translateY(0);
+            }
+             100%{
+                transform:translateY(100vh);
+            }
+        }
+        button{
+            height:50px;
+            width:50px;
+            border-radius: 50%;
+            background-color: aqua;
+            color:black;
+            cursor:pointer;
+            animation: bounce 30s ease 0s infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <button>ball</button>
+</body>
+</html>
